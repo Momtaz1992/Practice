@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+hr {
+  width: 30%;
+  margin: 10px 0 15px 0;
+}
+
+.peseudo {
+  width: 800px;
+  height: 100%;
+  margin: 20px 30px;
+  padding: 10px 0 20px 0;
+}
+.peseudo .circle .blue {
+  padding-top: 20px;
+  color: blue;
+}
+.peseudo .circle .red {
+  padding-top: 10px;
+  color: red;
+}
+.peseudo .circle .green {
+  padding-top: 10px;
+  color: green;
+}
+.peseudo .circle .orange {
+  padding-top: 10px;
+  color: orange;
+}
+.peseudo .circle hr::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  border-radius: 50%;
+  left: 3.5%;
+  margin-top: -1%;
+}
+.peseudo .box .blue {
+  padding-top: 20px;
+  color: blue;
+}
+.peseudo .box .red {
+  padding-top: 10px;
+  color: red;
+}
+.peseudo .box .green {
+  padding-top: 10px;
+  color: green;
+}
+.peseudo .box .orange {
+  padding-top: 10px;
+  color: orange;
+}
+.peseudo .box hr::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  left: 3.5%;
+  margin-top: -1%;
+}
+.peseudo .triangle-up .blue {
+  padding-top: 20px;
+  color: blue;
+}
+.peseudo .triangle-up .red {
+  padding-top: 10px;
+  color: red;
+}
+.peseudo .triangle-up .green {
+  padding-top: 10px;
+  color: green;
+}
+.peseudo .triangle-up .orange {
+  padding-top: 10px;
+  color: orange;
+}
+.peseudo .triangle-up hr {
+  position: relative;
+}
+.peseudo .triangle-up hr::after {
+  position: absolute;
+  content: "";
+  left: 3.5%;
+  margin-top: -1%;
+  width: 0;
+  border-top: 10px solid blue;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.peseudo .triangle-down .blue {
+  padding-top: 20px;
+  color: blue;
+}
+.peseudo .triangle-down .red {
+  padding-top: 10px;
+  color: red;
+}
+.peseudo .triangle-down .green {
+  padding-top: 10px;
+  color: green;
+}
+.peseudo .triangle-down .orange {
+  padding-top: 10px;
+  color: orange;
+}/*# sourceMappingURL=style.css.map */
