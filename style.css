@@ -91,16 +91,13 @@ hr {
   padding-top: 10px;
   color: orange;
 }
-.peseudo .triangle-up hr {
-  position: relative;
-}
 .peseudo .triangle-up hr::after {
   position: absolute;
   content: "";
   left: 3.5%;
-  margin-top: -1%;
+  margin-top: -1.6%;
   width: 0;
-  border-top: 10px solid blue;
+  border-bottom: 10px solid blue;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
 }
@@ -119,4 +116,14 @@ hr {
 .peseudo .triangle-down .orange {
   padding-top: 10px;
   color: orange;
+}
+.peseudo .triangle-down hr::after {
+  position: absolute;
+  content: "";
+  left: 3.5%;
+  margin-top: -0.2%;
+  width: 0;
+  border-top: 10px solid blue;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
 }/*# sourceMappingURL=style.css.map */
