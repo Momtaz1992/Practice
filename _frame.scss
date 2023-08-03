@@ -1,0 +1,35 @@
+.frame{
+       width: 800px;
+       height: 450px;
+       background-color: #eee;
+       margin: 5px auto;
+       margin-top: 50px;
+       padding: 5px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 15px solid rgb(51, 50, 50);
+       .frameBox{
+              margin: 40px auto;
+              padding: 40px;
+              position: relative;
+              &::after{
+                     position: absolute;
+                     content: "";
+                     width: 370px;
+                     height: 420px;
+                     background-color: rgb(51, 50, 50);
+                     left: 54%;
+                     top: 20px;
+                     z-index: 1;
+                     border-top: 15px solid #eee;
+                     border-bottom: 15px solid #eee;
+                     border-right: 15px solid #eee;
+              }
+              img{
+                     position: relative;
+                     z-index: 2;
+
+              }
+       }
+}
