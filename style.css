@@ -304,6 +304,51 @@
   padding: 1px;
 }
 
+.tooltip {
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  margin: 5px auto;
+  margin-top: 50px;
+  padding: 5px;
+  position: relative;
+}
+.tooltip a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 28px;
+}
+.tooltip a:hover span {
+  position: absolute;
+  content: "";
+  width: 380px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  bottom: 140%;
+  left: -35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tooltip a:hover span::before {
+  position: absolute;
+  content: "";
+  left: 45%;
+  bottom: -48%;
+  border: 17px solid transparent;
+  border-top-color: black;
+}
+.tooltip a span {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
