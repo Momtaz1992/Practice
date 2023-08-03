@@ -1,0 +1,113 @@
+.discounts{
+       width: 800px;
+       height: auto;
+       background-color: #eee;
+       margin: 5px auto;
+       margin-top: 50px;
+       padding: 5px;
+       position: relative;
+       p{
+              margin-right: 30px;
+              margin-bottom: 20px;
+              background-color: rgb(58, 112, 219);
+              display: inline-block;
+              position: relative;
+              left: 83%;
+              color: white;
+              height: auto;
+              width: 130px;
+              text-align: center;
+              padding: 8px;
+              font-size: 18px;
+              &::after{
+                     position: absolute;
+                     content: "";
+                     left: 75%;
+                     bottom: 2%;
+                     border: 17px solid transparent;
+                     border-right-color: #eee ;
+              }
+       }
+       .containers{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              .basic{
+                     border: 1px solid #eee;
+                     margin-right: 20px;
+                     background-color: white;
+                     .title{
+                            font-size: 20px;
+                            padding: 10px;
+                            background-color: rgb(166, 37, 37);
+                            color: white;
+                            border-radius: 5px 5px 0px 0px;
+                     }
+                     .line{
+                            padding: 16px 3px 16px 0px;
+                            border-bottom: 1px solid #e6e6e6;    
+                                   .bx-check{
+                                          background-color: rgb(9, 173, 132);
+                                          width: 17px;
+                                          height: 17px;
+                                          border-radius: 50%;
+                                          margin-left: 10px;
+                                          margin-right: 8px;
+                                          color: white;
+                                   }
+                                   .bx-x{
+                                          background-color: rgb(198, 8, 8);
+                                          width: 17px;
+                                          height: 17px;
+                                          border-radius: 50%;
+                                          margin-left: 10px;
+                                          margin-right: 8px;
+                                          color: white;
+                                   }
+                            }
+                     }
+              }
+              .professional{
+                     border: 1px solid #eee;
+                     background-color: white;
+                     .title{
+                            font-size: 20px;
+                            padding: 10px;
+                            background-color: rgb(52, 152, 180);
+                            color: white;
+                            border-radius: 5px 5px 0px 0px;
+                     }
+                     .line{
+                            padding: 16px 3px 16px 0px;
+                            border-bottom: 1px solid #e6e6e6;    
+                                   .bx-check{
+                                          background-color: rgb(9, 173, 132);
+                                          width: 17px;
+                                          height: 17px;
+                                          border-radius: 50%;
+                                          margin-left: 10px;
+                                          margin-right: 8px;
+                                          color: white;
+                                   }
+                                   .bx-x{
+                                          background-color: rgb(198, 8, 8);
+                                          width: 17px;
+                                          height: 17px;
+                                          border-radius: 50%;
+                                          margin-left: 10px;
+                                          margin-right: 8px;
+                                          color: white;
+                                   }
+                            }
+                     .special{
+                            position: relative;
+                            .bx-question-mark{
+                                   position: absolute;
+                                   left: 90%;
+                                   background-color: #514f4f;
+                                   border-radius: 50%;
+                                   color: white;
+                                   padding: 1px;
+                            }
+                     }
+                     }
+              }
