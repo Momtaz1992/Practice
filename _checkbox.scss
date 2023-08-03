@@ -1,0 +1,81 @@
+.checkbox{
+       width: 800px;
+       height: auto;
+       background-color: white;
+       margin: 5px auto;
+       margin-top: 50px;
+       padding: 5px;
+       display: grid;
+       grid-template-columns: 3fr 1fr;
+       aside{
+              padding: 10px;
+              .CategoryList{
+                     h3{
+                            font-size:16px;
+                            padding: 15px 0 15px;
+                            position: relative;
+                            span{
+                                   position: absolute;
+                                   content: "";
+                                   height: 1px;
+                                   width: 40px;
+                                   background-color: rgb(68, 135, 206);
+                                   bottom:50%;
+                                   right:25px;
+                            }
+                     }
+                     .line{
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 10px 0 10px;
+                            color: #807d7d;
+                            p{
+                                   background-color: #eee;
+                                   width: 28px;
+                                   height: 18px;
+                                   font-size: 14px;
+                                   text-align: center;
+                            }
+                     }
+              }.gallery{
+                     h3{
+                            font-size:16px;
+                            padding: 15px 0 15px;
+                            position: relative;
+                            span{
+                                   position: absolute;
+                                   content: "";
+                                   height: 1px;
+                                   width: 40px;
+                                   background-color: rgb(68, 135, 206);
+                                   bottom:50%;
+                                   right:70px;
+                            }
+                     }
+              }.Archives{
+                     h3{
+                            font-size:16px;
+                            padding: 22px 0 15px;
+                            position: relative;
+                            span{
+                                   position: absolute;
+                                   content: "";
+                                   height: 1px;
+                                   width: 40px;
+                                   background-color: rgb(68, 135, 206);
+                                   bottom:40%;
+                                   right:60px;
+                            }
+                     }.dat-box{
+                            display:flex;
+                            justify-content: start;
+                            i{
+                                   margin: 15px 15px 0 0px;
+                            }
+                            p{
+                                   margin: 15px 15px 0 2px;
+                            }
+                     }
+              }
+       }
+}
