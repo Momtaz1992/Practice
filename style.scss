@@ -1,3 +1,6 @@
+@import "peseudo" ;
+@import "game-profile";
+
 *{
        margin: 0;
        padding: 0;
@@ -5,135 +8,9 @@
 }
 body{
        font-family: 'Roboto', sans-serif;
+       background-color: #eee;
 }
 span{
        font-size: 26px;
        font-weight: bold;
 }
-hr {
-       width: 30%;
-       margin: 10px 0 15px 0;}
-.peseudo{
-       width: 800px;
-       height: 100%;
-       margin:20px 30px;
-       padding: 10px 0 20px 0;
-       .circle{
-              .blue{
-                     padding-top: 20px;
-                     color: blue;
-              }
-              .red{
-                     padding-top: 10px;
-                     color: red;
-              }
-              .green{
-                     padding-top: 10px;
-                     color: green;
-              }
-              .orange{
-                     padding-top: 10px;
-                     color: orange;
-              }
-              hr {
-                     &::before {
-                     content: '';
-                     position: absolute;
-                     width: 12px;
-                     height: 12px;
-                     background-color: blue;
-                     border-radius: 50%;
-                     left: 3.5%;
-                     margin-top: -1%;
-                     }
-              }
-       }
-       .box{
-              .blue{
-                     padding-top: 20px;
-                     color: blue;
-              }
-              .red{
-                     padding-top: 10px;
-                     color: red;
-              }
-              .green{
-                     padding-top: 10px;
-                     color: green;
-              }
-              .orange{
-                     padding-top: 10px;
-                     color: orange;
-              }
-              hr {
-                     &::before {
-                     content: '';
-                     position: absolute;
-                     width: 12px;
-                     height: 12px;
-                     background-color: blue;
-                     left: 3.5%;
-                     margin-top: -1%;
-                     }
-              }
-       }
-       .triangle-up{
-              .blue{
-                     padding-top: 20px;
-                     color: blue;
-              }
-              .red{
-                     padding-top: 10px;
-                     color: red;
-              }
-              .green{
-                     padding-top: 10px;
-                     color: green;
-              }
-              .orange{
-                     padding-top: 10px;
-                     color: orange;
-              }
-              hr {
-                     &::after {
-                     position: absolute;
-                     content: '';                    
-                     left: 3.5%;
-                     margin-top: -1.6%;
-                     width: 0;
-                     border-bottom: 10px solid blue;
-                     border-right: 10px solid transparent;
-                     border-left: 10px solid transparent;
-                     }
-              }
-       }
-       .triangle-down{
-                     .blue{
-                            padding-top: 20px;
-                            color: blue;
-                     }
-                     .red{
-                            padding-top: 10px;
-                            color: red;
-                     }
-                     .green{
-                            padding-top: 10px;
-                            color: green;
-                     }
-                     .orange{
-                            padding-top: 10px;
-                            color: orange;
-                     }
-                     hr {
-                            &::after {
-                            position: absolute;
-                            content: '';                    
-                            left: 3.5%;
-                            margin-top: -0.2%;
-                            width: 0;
-                            border-top: 10px solid blue;
-                            border-right: 10px solid transparent;
-                            border-left: 10px solid transparent;
-                            }
-                     }
-       }}
