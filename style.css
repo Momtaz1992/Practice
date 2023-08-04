@@ -554,6 +554,79 @@
   z-index: 2;
 }
 
+form {
+  width: 800px;
+  height: 480px;
+  background-color: white;
+  margin: 5px auto;
+  margin-top: 50px;
+  padding: 5px;
+}
+form .box {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 5px 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-areas: "username username  phone phone " "password password   Berieft Berieft" "email email  Berieft Berieft" "button button button button ";
+  gap: 12px;
+}
+form .box .box-first {
+  grid-area: username;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form .box .box-second {
+  grid-area: password;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form .box .box-third {
+  grid-area: email;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form .box .box-fourth {
+  grid-area: phone;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form .box .box-fivth {
+  grid-area: Berieft;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form .box .box-fivth input {
+  height: 80%;
+}
+form .box .input {
+  grid-area: button;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 60%;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 22px;
+  background-color: rgb(17, 169, 118);
+}
+form .box h3 {
+  padding-bottom: 10px;
+}
+form .box h3 i {
+  color: red;
+  font-size: 8px;
+}
+form .box input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e6e2e2;
+}
+
 * {
   margin: 0;
   padding: 0;
