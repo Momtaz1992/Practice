@@ -1,0 +1,158 @@
+.page{
+       width: 800px;
+       height: auto;
+       background-color: white;
+       margin: 5px auto;
+       margin-top: 50px;
+       padding: 5px;
+       Line-height:1.4;
+       .nav{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              gap: 10px;
+              .logo{
+                     font-size: 1.5rem;
+              }
+              ul{
+                     display: flex;
+                     justify-content: space-between;
+                     gap: 20px;
+                     li{
+                            list-style:none;
+                            a{
+                                   text-decoration: none;
+                                   color: black;
+                            }
+                     }
+              }
+       }
+       .main{
+              background-color: #eee;
+              .home{
+                     h2{
+                            text-align: center;
+                            padding: 30px 30px 20px 30px;
+                            span{
+                                   color:rgb(4, 131, 157);
+                            }
+                     }
+                     p{
+                            text-align:center;
+                            padding: 0 40px 40px 40px
+                     }
+              }
+              .feature{
+                     display:flex;
+                     justify-content: space-between;
+                     align-items: center;
+                     background-color: white;
+                     padding: 20px;
+                     .box{
+                            display: inline;
+                            text-align: center;
+                            h6{
+                                   font-size: 1.1rem;
+                                   padding: 10px;
+                            }
+                            p{
+                                   text-align: center;
+                                   color: #666666;
+                            }
+                     }
+              }
+              .about{
+                     display:flex;
+                     justify-content: space-evenly;
+                     align-items: center;
+                     padding: 30px 50px ;
+                     gap: 20px;
+                     .text{
+                            width: 60%;
+                            h2{
+                                   padding: 20px 0 20px 0;
+                                   span{
+                                          color:rgb(4, 131, 157);
+                                   }
+                            }
+                            p{
+                                   color: #666666;
+                                   
+                            }
+                     }
+              }
+              .containers{
+                     padding: 30px;
+                     background-color: white;
+                     display: flex;
+                     justify-content: space-evenly;
+                     .box{
+                            display: inline;
+                            width: 200px;
+                            height: 80px;
+                            background-color: rgb(124, 18, 18);
+                            text-align: center;
+                            padding: 10px;
+                            color: white;
+                            h3{
+                                   font-size: 1.8rem;
+                                   padding-bottom: 0;
+                            }
+                            p{
+                                   font-size:0.8rem;
+                            }
+                     }
+              }.skills{padding-bottom: 30px;
+                     h2{
+                            text-align:center;
+                            padding: 40px 40px 30px 40px;
+                            font-weight: 500;
+                     }
+                     .box{
+                            text-align: center;
+                            display: inline;
+                            .percent{
+                                   display: grid;
+                                   grid-template-columns: 1fr 5fr;                                   
+                                   padding: 8px;
+                                   h4{
+                                          font-size: 0.9rem;
+                                          font-weight: 550;
+                                          display: flex;
+                                          justify-content: end;
+                                          align-items: center;
+                                   }
+                                   p{
+                                          background-color: white;
+                                          width: 600px;
+                                          height: 40px;
+                                          margin-left: 10px;
+                                          position: relative;
+                                          color: black;
+                                          display: flex;
+                                          justify-content: end;
+                                          align-items: center;
+                                          span{
+                                                 position: absolute;
+                                                 background-color:rgb(8, 128, 188);
+                                                 height: 40px;
+                                                 left: 0;
+                                          }
+                                   }
+                            }
+                     }
+              }
+       }.footer{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              background-color: rgb(45, 42, 42);
+              color: white;
+              font-size: 0.8rem;
+              padding: 10px;
+              span{
+                     font-size: 0.8rem;
+                     color: rgb(8, 128, 188);
+              }
+       }
+}
