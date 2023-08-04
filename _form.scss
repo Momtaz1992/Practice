@@ -1,0 +1,79 @@
+form{
+       width: 800px;
+       height:480px;
+       background-color: white;
+       margin: 5px auto;
+       margin-top: 50px;
+       padding: 5px;
+                            .box{
+                                   display: grid;
+                                   padding: 20px;
+                                   grid-template-columns: 1fr 5px 1fr;
+                                   grid-template-rows:100px 100px 100px 100px;
+                                   grid-template-areas: "username username  phone phone "
+                                                        "password password   Berieft Berieft"
+                                                        "email email  Berieft Berieft"
+                                                        "button button button button ";
+                                                        gap: 12px;
+                                                        .box-first{
+                                                               grid-area: username;
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                               
+                                                        }
+                                                        .box-second{
+                                                               grid-area: password;
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                               
+                                                        }
+                                                        .box-third{
+                                                               grid-area: email;
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                        
+                                                        }
+                                                        .box-fourth{
+                                                               grid-area: phone;
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                        }
+                                                        .box-fivth{
+                                                               grid-area: Berieft;
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                               input{
+                                                                      height: 80%;
+                                                               }
+                                                        }
+                                                        .input{
+                                                               grid-area: button;
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                               height: 60%;
+                                                               color: white;
+                                                               border-radius: 5px;
+                                                               border: none;
+                                                               font-size: 22px;
+                                                               background-color: rgb(17, 169, 118);
+                                                        }
+                                                        h3{
+                                                               padding-bottom: 10px;
+                                                               i{
+                                                                      color: red;
+                                                                      font-size: 8px;
+                                                               }
+                                                        }
+                                                        input{
+                                                               margin-top: 5px;
+                                                               margin-bottom: 10px;
+                                                               width: 100%;
+                                                               height: 50%;
+                                                               padding: 10px;
+                                                               border: none;
+                                                               border-radius: 3px;
+                                                               background-color: #e6e2e2;
+                                                        }
+                            }
+       }
+
