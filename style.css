@@ -842,13 +842,50 @@ form .box input {
   padding: 5px;
 }
 
-.burger {
+.burger_menu {
   width: 800px;
-  height: 300px;
+  height: auto;
   background-color: white;
   margin: 5px auto;
   margin-top: 50px;
   padding: 5px;
+}
+.burger_menu .menu {
+  width: 40px;
+  height: 12px;
+  position: relative;
+  cursor: pointer;
+  left: 0;
+  transition: all 0.3s ease;
+  margin: 20px auto;
+}
+.burger_menu .menu:hover span:nth-child(2) {
+  transform: rotate(45deg);
+  top: 6px;
+}
+.burger_menu .menu:hover span:first-child {
+  opacity: 0;
+}
+.burger_menu .menu:hover span:last-child {
+  transform: rotate(-45deg);
+  top: 6px;
+}
+.burger_menu .menu span {
+  background-color: black;
+  height: 4px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.burger_menu .menu span:first-child {
+  top: 0;
+}
+.burger_menu .menu span:nth-child(2) {
+  top: 12px;
+}
+.burger_menu .menu span:last-child {
+  top: 24px;
 }
 
 * {
