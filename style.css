@@ -844,7 +844,7 @@ form .box input {
 
 .burger_menu {
   width: 800px;
-  height: auto;
+  height: 500px;
   background-color: white;
   margin: 5px auto;
   margin-top: 50px;
@@ -876,7 +876,6 @@ form .box input {
   position: absolute;
   width: 100%;
   left: 0;
-  transition: all 0.3s ease;
 }
 .burger_menu .menu span:first-child {
   top: 0;
@@ -886,6 +885,38 @@ form .box input {
 }
 .burger_menu .menu span:last-child {
   top: 24px;
+}
+.burger_menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  margin-top: 70px;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  background-color: black;
+}
+.burger_menu ul:first-child {
+  border-color: red green yellow blue;
+  border-style: solid;
+  border-width: 5px;
+  width: 30px;
+  height: 20px;
+}
+.burger_menu ul li {
+  margin: 10px auto;
+}
+.burger_menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.burger_menu ul li a:hover {
+  color: red;
 }
 
 * {
